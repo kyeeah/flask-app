@@ -24,7 +24,7 @@ jobs:
         
     - name: Run tests
       run: |
-        python -m unittest discover tests
+        python -m unittest discover hello
     
     - name: Build Docker image
       run: |
